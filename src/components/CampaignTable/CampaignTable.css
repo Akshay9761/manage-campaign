@@ -1,0 +1,183 @@
+.CampaignTable-cont {
+  overflow-x: auto;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+table {
+  font-size: 16px;
+  border-collapse: collapse;
+  margin: 0;
+  width: 100%;
+  border-spacing: 0 20px;
+}
+thead > tr {
+  height: 3rem !important;
+  padding: 10px 20px !important;
+}
+
+thead > tr > th {
+  padding: 10px 20px !important;
+}
+
+table tr {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+  height: 90px;
+}
+
+table tr,
+table td {
+  text-align: left;
+  padding: 20px;
+}
+
+table th {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #556789;
+  background: #f1f1f4;
+}
+
+.campaign-cont {
+  display: flex;
+  align-items: flex-end;
+}
+
+.campaign-cont > img {
+  height: 40px;
+}
+
+.campaign-cont__info p {
+  margin: 0 0 0 0.5rem;
+  padding: 0;
+}
+
+.campaign-cont__info-region {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9ca2b7;
+}
+
+button {
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: #556789;
+}
+
+button > span {
+  margin-left: 1rem;
+}
+
+.actionCont {
+  display: flex;
+}
+.actionCont > button {
+  margin-right: 1rem;
+}
+
+.count-days {
+  margin: 0;
+  font-size: 14px;
+  color: #7788a3;
+  font-style: italic;
+  line-height: 24px;
+}
+.price-modal-cont {
+  display: flex;
+  flex-direction: column;
+}
+.price-modal-cont__img-section {
+  display: flex;
+  align-items: flex-end;
+}
+.price-modal-cont__img-section > img {
+  filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.151415));
+}
+.price-modal-cont__game-desc {
+  margin-left: 0.8rem;
+}
+.game-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2b416c;
+  margin-bottom: 0;
+}
+
+.game-region {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9ca2b7;
+  margin-bottom: 0;
+}
+.pricing-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2b416c;
+}
+.price-week-month-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+.price-week-month-row > p {
+  margin: 0;
+}
+.week-month {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7788a3;
+}
+.price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #556789;
+}
+
+.no-data {
+  display: flex;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-cont > img {
+    height: auto;
+  }
+  table tr,
+  table td {
+    text-align: left;
+    padding: 10px;
+  }
+  thead > tr > th {
+    padding: 10px !important;
+  }
+  td {
+    min-width: 8rem;
+  }
+  .actionCont > button {
+    min-width: 10rem;
+    justify-content: flex-start;
+    margin-right: .2rem;
+  }
+}

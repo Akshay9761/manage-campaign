@@ -1,0 +1,59 @@
+.App {
+  min-height: 100vh;
+  color: #2b416c;
+  background-color: #f2f2f2;
+  font-size: calc(10px + 2vmin);
+}
+
+.manage-campaign-cont {
+  padding: 0 20px;
+}
+
+.manage-campaign {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 50px;
+  color: #2b416c;
+}
+
+.manage-campaign-cont__tabs {
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.manage-campaign-cont__tabs button {
+  padding: 10px;
+  margin: 0 20px;
+  border: none;
+  color: #2b416c;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 28px;
+  background: transparent;
+}
+
+.manage-campaign-cont__tabs button.active {
+  color: #83a515;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #83a515;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .manage-campaign-cont {
+    padding: 0 10px;
+  }
+  .manage-campaign {
+    font-size: 2rem;
+  }
+  .manage-campaign-cont__tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
