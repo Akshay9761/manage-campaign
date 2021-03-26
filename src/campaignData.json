@@ -34,6 +34,42 @@
       "csv": "Some CSV link for Mancala Mix",
       "report": "Some report link for Mancala Mix",
       "image_url":"/Bitmap.png"
+    },
+    {
+      "name": "G-Suite",
+      "region": "GP",
+      "createdOn": 1616869800000,
+      "price": "Price info of Mancala Mix",
+      "csv": "Some CSV link for Mancala Mix",
+      "report": "Some report link for Mancala Mix",
+      "image_url": "/Bitmap.png"
+    },
+    {
+      "name": "Mancala Custom",
+      "region": "MP",
+      "createdOn": 1617129000000,
+      "price": "Price info of Mancala Mix",
+      "csv": "Some CSV link for Mancala Mix",
+      "report": "Some report link for Mancala Mix",
+      "image_url": "/Bitmap.png"
+    },
+    {
+      "name": "Dragon Ball",
+      "region": "DB",
+      "createdOn": 1617129000000,
+      "price": "Price info of Mancala Mix",
+      "csv": "Some CSV link for Mancala Mix",
+      "report": "Some report link for Mancala Mix",
+      "image_url":"/Bitmap.png"
+    },
+    {
+      "name": "Marris Hook",
+      "region": "MM",
+      "createdOn": 1617301800000,
+      "price": "Price info of Mancala Mix",
+      "csv": "Some CSV link for Mancala Mix",
+      "report": "Some report link for Mancala Mix",
+      "image_url":"/Bitmap.png"
     }
   ]
 }
